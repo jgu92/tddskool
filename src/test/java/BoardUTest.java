@@ -93,11 +93,11 @@ public class BoardUTest {
     }
 
     @Test
-    public void playShouldReturnFalseWhenPlayerPlayedOnOutOfBoard() {
+    public void playShouldReturnFalseWhenPlayerPlayedOnColumn7() {
         //Given
 
         //When
-        boolean result = board.play('X', 10);
+        boolean result = board.play('X', 7);
         //Then
         Assertions.assertThat(result).isFalse();
     }
