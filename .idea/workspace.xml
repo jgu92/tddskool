@@ -27,14 +27,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Analyzer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Referee.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Referee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Analyzer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Analyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+            <state relative-caret-position="226">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RefereeUTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RefereeUTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1342">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
-                <element signature="e#3212#3213#0" expanded="true" />
-                <element signature="e#3275#3276#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardUTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BoardUTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="115" column="0" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="115" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +98,8 @@
       <file leaf-file-name="AnalyzerUTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerUTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="225" column="5" lean-forward="false" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="33" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/test/java/BoardUTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Analyzer.java" />
         <option value="$PROJECT_DIR$/src/test/java/AnalyzerUTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RefereeUTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Referee.java" />
       </list>
     </option>
   </component>
@@ -206,28 +263,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon">
-    <configuration default="false" name="BoardUTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="skool_tdd_puissance4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BoardUTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RefereeUTest">
     <configuration default="false" name="AnalyzerUTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="skool_tdd_puissance4" />
@@ -249,48 +285,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AnalyzerUTest.verticalAnalysisShouldReturnTrueIf4TokensOfTheSamePlayerAreAlignedVerticaly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="skool_tdd_puissance4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnalyzerUTest" />
-      <option name="METHOD_NAME" value="verticalAnalysisShouldReturnTrueIf4TokensOfTheSamePlayerAreAlignedVerticaly" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="AnalyzerUTest.diagonalRightAnalysisShouldReturnFalseIfLessThan4TokensOfTheSamePlayerAreAlignedDiagonally" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="skool_tdd_puissance4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnalyzerUTest" />
-      <option name="METHOD_NAME" value="diagonalRightAnalysisShouldReturnFalseIfLessThan4TokensOfTheSamePlayerAreAlignedDiagonally" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="skool_tdd_puissance4" />
@@ -299,6 +293,69 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AnalyzerUTest" />
       <option name="METHOD_NAME" value="checkNextTurnShouldReturnFalseIfPlayerHasWon" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RefereeUTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="skool_tdd_puissance4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RefereeUTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RefereeUTest.startGameShouldSetCurrentPlayerAsX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="skool_tdd_puissance4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RefereeUTest" />
+      <option name="METHOD_NAME" value="startGameShouldSetCurrentPlayerAsX" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RefereeUTest.startGameShouldInitGameBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="skool_tdd_puissance4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RefereeUTest" />
+      <option name="METHOD_NAME" value="startGameShouldInitGameBoard" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -517,19 +574,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BoardUTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.verticalAnalysisShouldReturnTrueIf4TokensOfTheSamePlayerAreAlignedVerticaly" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.diagonalRightAnalysisShouldReturnFalseIfLessThan4TokensOfTheSamePlayerAreAlignedDiagonally" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RefereeUTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RefereeUTest.startGameShouldSetCurrentPlayerAsX" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RefereeUTest.startGameShouldInitGameBoard" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.diagonalRightAnalysisShouldReturnFalseIfLessThan4TokensOfTheSamePlayerAreAlignedDiagonally" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardUTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.verticalAnalysisShouldReturnTrueIf4TokensOfTheSamePlayerAreAlignedVerticaly" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RefereeUTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RefereeUTest.startGameShouldInitGameBoard" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RefereeUTest.startGameShouldSetCurrentPlayerAsX" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AnalyzerUTest" />
       </list>
     </recent_temporary>
   </component>
@@ -550,35 +607,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 35m 46s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 16m 57s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 41m 51s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 17m 09s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 48m 04s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 24m 21s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 48m 33s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 28m 38s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 50m 25s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 29m 15s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 51m 20s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 30m 04s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 55m 07s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 31m 21s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest - 2017.01.25 at 15h 56m 09s.xml">
-      <configuration name="AnalyzerUTest" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 34m 30s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest_checkNextTurnShouldReturnFalseIfPlayerHasWon - 2017.01.25 at 16h 02m 38s.xml">
-      <configuration name="AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 34m 34s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnalyzerUTest_checkNextTurnShouldReturnFalseIfPlayerHasWon - 2017.01.25 at 16h 03m 13s.xml">
-      <configuration name="AnalyzerUTest.checkNextTurnShouldReturnFalseIfPlayerHasWon" configurationId="JUnit" />
+    <history-entry file="RefereeUTest - 2017.01.25 at 17h 34m 46s.xml">
+      <configuration name="RefereeUTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -594,13 +651,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -650,7 +707,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -659,16 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/BoardUTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="68" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -679,9 +726,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
+            <element signature="e#1137#1138#0" expanded="true" />
             <element signature="e#1165#1166#0" expanded="true" />
           </folding>
         </state>
@@ -689,8 +737,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AnalyzerUTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="225" column="5" lean-forward="false" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+        <state relative-caret-position="308">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BoardUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="104" selection-start-column="3" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -699,11 +757,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Analyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        <state relative-caret-position="226">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RefereeUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
-            <element signature="e#3212#3213#0" expanded="true" />
-            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Referee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
           </folding>
         </state>
       </provider>
