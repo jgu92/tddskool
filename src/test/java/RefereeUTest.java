@@ -105,4 +105,30 @@ public class RefereeUTest {
         //Then
         Assertions.assertThat(result).isEqualTo("Board is Full. End of the game");
     }
+
+
+    @Test
+    public void orderOfMethodsShouldVerifyGameStateBeforeNextTurn() {
+        //Given
+        referee.play(2);
+        referee.checkGameState();
+        referee.play(3);
+        referee.checkGameState();
+        referee.play(2);
+        referee.checkGameState();
+        referee.play(4);
+        referee.checkGameState();
+        referee.play(2);
+        referee.checkGameState();
+        referee.play(0);
+        referee.checkGameState();
+        referee.play(2);
+
+        //When
+        String result = referee.checkGameState();
+
+        //Then
+        Assertions.assertThat(result).isEqualTo("X has won");
+    }
+
 }

@@ -3,7 +3,8 @@ public class Referee {
     private Board board;
     private Analyzer analyzer;
 
-    public void startGame(){
+
+    public void startGame() {
         currentPlayer = 'X';
         board = new Board();
         analyzer = new Analyzer();
@@ -18,7 +19,8 @@ public class Referee {
     }
 
     public String whoIsCurrentPlayer() {
-        return "The current player is "+currentPlayer+"\n";
+        System.out.print("The current player is " + currentPlayer + "\n");
+        return "The current player is " + currentPlayer + "\n";
     }
 
     public String displayGrid() {
@@ -26,16 +28,19 @@ public class Referee {
     }
 
     public void play(int column) {
-        board.play(currentPlayer,column);
+        board.play(currentPlayer, column);
     }
 
     public String checkGameState() {
-        if(analyzer.checkVictory(board)){
-            return currentPlayer+" has won";
+        if (analyzer.checkVictory(board)) {
+            return currentPlayer + " has won";
         }
-        if(analyzer.isFull(board)){
+        if (analyzer.isFull(board)) {
             return "Board is Full. End of the game";
         }
+        currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
+
         return "Continue";
     }
+
 }
