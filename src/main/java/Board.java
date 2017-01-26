@@ -38,7 +38,6 @@ public class Board {
             }
             result += "\n";
         }
-        System.out.print(result);
         return result;
     }
 

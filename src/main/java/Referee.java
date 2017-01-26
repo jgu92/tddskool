@@ -19,7 +19,6 @@ public class Referee {
     }
 
     public String whoIsCurrentPlayer() {
-        System.out.print("The current player is " + currentPlayer + "\n");
         return "The current player is " + currentPlayer + "\n";
     }
 
